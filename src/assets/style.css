@@ -5,6 +5,49 @@
 
 @layer base {
   html {
-    font-family: 'Robot', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
   }
+
+  .btn {
+    padding: .4em;
+    border-radius: var(--border-radius);
+  }
+
+  .btn-primary {
+    background-color: var(--primary-1);
+  }
+
+  .btn-primary:hover {
+    background-color: var(--primary-2);
+  }
+
+  .btn-danger {
+    background-color: var(--danger-1);
+    color: white;
+  }
+
+  .btn-danger:hover {
+    background-color: var(--danger-2);
+  }
+
+  .border-custom {
+    border: var(--border)
+  }
+}
+
+:root {
+  --primary-1: #3498db;
+  --primary-2: #2980b9;
+  --danger-1: #e74c3c;
+  --danger-2: #c0392b;
+  --success: #2ecc71;
+  --gray-1: #f6f6f6;
+  --gray-2: #ddd;
+  --gray-3: #34495e;
+  --main-text: #444;
+  --light-color: #fff;
+
+  --border: 1px solid var(--gray-2);
+  --border-radius: 4px;
 }

@@ -6,16 +6,16 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'primary-1' :'#3498db',
-      'primary-2': '#2980b9',
-      'danger-1': '#e74c3c',
-      'danger-2': '#c0392b',
-      'success': '#2ecc71',
-      'gray-1': '#f6f6f6',
-      'gray-2': '#ddd',
-      'gray-3': '#34495e',
-      'main-text': '#444',
-      'light-text': '#fff'
+      'primary-1' :'var(--primary-1)',
+      'primary-2': 'var(--primary-2)',
+      'danger-1': 'var(--danger-1)',
+      'danger-2': 'var(--danger-2)',
+      'success': 'var(--success)',
+      'gray-1': 'var(--gray-1)',
+      'gray-2': 'var(--gray-2)',
+      'gray-3': 'var(--gray-3)',
+      'main-text': 'var(--main-text)',
+      'light-text': 'var(--light-color)'
     },
     extend: {},
   },
